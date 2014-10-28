@@ -1,0 +1,17 @@
+	Cada uno debe crearse una rama para desarrollar sus partes
+la primera vez que creeis la rama haced git push origin "nombre"
+luego haces git checkout "nombre de tu rama nueva"
+cuando hayais terminado vuestra parte haces git merge "rama destino" "tu rama actual"
+Cuando finalmente tengamos algo jugable haremos git merge master develop
+
+
+	*Aclaracion: no usar comillas para crear la rama
+	Ejemplo:
+		cesar crea su rama: git branch c-sar
+		cesar updatea la rama: git push origin c-sar
+		cesar trabaja en su rama: git checkout c-sar
+		cesar hace sus cosas y va haciendo push a su rama
+		finalmente termina lo que estaba haciendo y funciona bien : git merge develop c-sar
+		Finalmente tenemos algo "jugable": git merge master develop
+
+Bueno a darlo todo CPCR2!

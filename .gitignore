@@ -1,0 +1,10 @@
+cdtc_project.conf
+*.asm
+*.lst
+*.rel
+*.sym
+*.rst
+game.*
+*.TMP
+!game.c
+!game.h
